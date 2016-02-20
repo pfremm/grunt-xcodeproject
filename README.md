@@ -1,4 +1,5 @@
 # grunt-xcodeproject
+<<<<<<< HEAD
 
 > This grunt plugin uses xcode npm module to edit xcode project files.
 
@@ -87,3 +88,6 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 
 ## Release History
 _(Nothing yet)_
+=======
+This grunt plugin uses xcode npm module to edit xcode project files.
+>>>>>>> c152b32e963e7405cc9bd3e3faebed5865178986
