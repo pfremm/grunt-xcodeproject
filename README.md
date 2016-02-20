@@ -1,6 +1,6 @@
 # grunt-xcodeproject
 
-> This grunt plugin uses xcode npm module to edit xcode project files.
+> This grunt plugin uses xcode npm module to edit xcode project files.  The current scope allows you to add a framework to a xcode project file.
 
 ## Getting Started
 This plugin requires Grunt `~0.4.5`
