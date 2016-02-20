@@ -1,5 +1,4 @@
 # grunt-xcodeproject
-<<<<<<< HEAD
 
 > This grunt plugin uses xcode npm module to edit xcode project files.
 
@@ -87,7 +86,8 @@ grunt.initConfig({
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
 
 ## Release History
-v0.1 Working, but not unit testing.
+Version v.0.1 - First release without unit tests.
+
 =======
 This grunt plugin uses xcode npm module to edit xcode project files.
 >>>>>>> c152b32e963e7405cc9bd3e3faebed5865178986
