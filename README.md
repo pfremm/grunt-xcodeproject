@@ -87,7 +87,7 @@ grunt.initConfig({
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
 
 ## Release History
-_(Nothing yet)_
+v0.1 Working, but not unit testing.
 =======
 This grunt plugin uses xcode npm module to edit xcode project files.
 >>>>>>> c152b32e963e7405cc9bd3e3faebed5865178986

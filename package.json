@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/pfremm/grunt-xcodeproject.git"
+    "url": "git+https://github.com/pfremm/grunt-xcodeproject.git"
   },
   "bugs": {
     "url": "https://github.com/pfremm/grunt-xcodeproject/issues"
@@ -36,7 +36,15 @@
     "gruntplugin"
   ],
   "dependencies": {
+    "async": "^1.5.2",
     "copy-dir": "0.0.8",
     "xcode": "^0.8.3"
-  }
+  },
+  "gitHead": "4fb2cc22549daaf2bb2515d70a7b7e62ad5f3bdf",
+  "readme": "# grunt-xcodeproject\n<<<<<<< HEAD\n\n> This grunt plugin uses xcode npm module to edit xcode project files.\n\n## Getting Started\nThis plugin requires Grunt `~0.4.5`\n\nIf you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you're familiar with that process, you may install this plugin with this command:\n\n```shell\nnpm install grunt-xcodeproject --save-dev\n```\n\nOnce the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:\n\n```js\ngrunt.loadNpmTasks('grunt-xcodeproject');\n```\n\n## The \"xcodeproject\" task\n\n### Overview\nIn your project's Gruntfile, add a section named `xcodeproject` to the data object passed into `grunt.initConfig()`.\n\n```js\ngrunt.initConfig({\n  xcodeproject: {\n    options: {\n      // Task-specific options go here.\n    },\n    your_target: {\n      // Target-specific file lists and/or options go here.\n    },\n  },\n});\n```\n\n### Options\n\n#### options.separator\nType: `String`\nDefault value: `',  '`\n\nA string value that is used to do something with whatever.\n\n#### options.punctuation\nType: `String`\nDefault value: `'.'`\n\nA string value that is used to do something else with whatever else.\n\n### Usage Examples\n\n#### Default Options\nIn this example, the default options are used to do something with whatever. So if the `testing` file has the content `Testing` and the `123` file had the content `1 2 3`, the generated result would be `Testing, 1 2 3.`\n\n```js\ngrunt.initConfig({\n  xcodeproject: {\n    options: {},\n    files: {\n      'dest/default_options': ['src/testing', 'src/123'],\n    },\n  },\n});\n```\n\n#### Custom Options\nIn this example, custom options are used to do something else with whatever else. So if the `testing` file has the content `Testing` and the `123` file had the content `1 2 3`, the generated result in this case would be `Testing: 1 2 3 !!!`\n\n```js\ngrunt.initConfig({\n  xcodeproject: {\n    options: {\n      separator: ': ',\n      punctuation: ' !!!',\n    },\n    files: {\n      'dest/default_options': ['src/testing', 'src/123'],\n    },\n  },\n});\n```\n\n## Contributing\nIn lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).\n\n## Release History\n_(Nothing yet)_\n=======\nThis grunt plugin uses xcode npm module to edit xcode project files.\n>>>>>>> c152b32e963e7405cc9bd3e3faebed5865178986\n",
+  "readmeFilename": "README.md",
+  "_id": "grunt-xcodeproject@0.0.1",
+  "_shasum": "5a14012907a3a9e4c438935e739372048112e4ec",
+  "_from": "git+https://github.com/pfremm/grunt-xcodeproject.git",
+  "_resolved": "git+https://github.com/pfremm/grunt-xcodeproject.git#4fb2cc22549daaf2bb2515d70a7b7e62ad5f3bdf"
 }
