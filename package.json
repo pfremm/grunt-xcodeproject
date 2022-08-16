@@ -36,7 +36,7 @@
     "gruntplugin"
   ],
   "dependencies": {
-    "async": "^1.5.2",
+    "async": "^3.2.4",
     "copy-dir": "0.0.8",
     "xcode": "^0.8.3"
   },
