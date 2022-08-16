@@ -37,7 +37,7 @@
   ],
   "dependencies": {
     "async": "^1.5.2",
-    "copy-dir": "0.0.8",
+    "copy-dir": "1.3.0",
     "xcode": "^0.8.3"
   },
   "gitHead": "4fb2cc22549daaf2bb2515d70a7b7e62ad5f3bdf",
